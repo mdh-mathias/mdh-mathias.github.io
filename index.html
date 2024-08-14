@@ -9,7 +9,7 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             color: #333;
-            max-width: 100%;
+            max-width: 800px;
             margin: 0 auto;
             padding: 20px;
             background-color: #f0f8ff;
@@ -56,6 +56,18 @@
             margin-bottom: 10px;
             color: #0077a5; /* Complementary color for the heading */
         }
+        
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+                max-width: 100%;
+            }
+            
+            .section, .bio {
+                padding: 15px;
+            }
+        }
+
         .grade {
             background-color: #f5f9fa;
             border-radius: 5px;
